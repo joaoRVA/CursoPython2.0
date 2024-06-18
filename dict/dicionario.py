@@ -6,6 +6,12 @@ dict e list = dados mutáveis
  Dicionários são estruturas de dados do tipo par de "chave" e "valor".
  Chaves podem ser consideradas como o "índice"
 """
+
+
+"""
+
+pessoa = dict(nome='João Vítor', sobrenome = 'Rodrigues')
+"""
 pessoa = {
     'nome': 'João Vítor',
     'Sobrenome': 'Rodrigues',
@@ -26,4 +32,4 @@ print()
 
 
 for chave in pessoa:
-    print(chave, pessoa[chave])
+    print(f'{chave}: {pessoa[chave]}')
