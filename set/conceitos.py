@@ -33,5 +33,5 @@ s4_convert = list(s4)
 print(s4_convert)
 print()
 
-for numero in s4:
-    print(numero)
+# for numero in s4:
+#     print(numero)

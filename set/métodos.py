@@ -17,6 +17,6 @@ print(s1)
 
 # s1.clear() limpa o set
 
-# .discard() elimina um valor 
+# .discard() elimina um valor especificado
 s1.discard('JOAO')
 print(s1)
